@@ -9,7 +9,7 @@ export default function TitleCard({title, category}) {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhOTA3YWQ0YzUyZmExZDYyNGQzMDYwMjMxNTNlMjU0OCIsIm5iZiI6MS43NDcxMjk0NTUwOTc5OTk4ZSs5LCJzdWIiOiI2ODIzMTQ2ZjlmMDk0MjAxYTA4NjQ1M2YiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.t19spxa_n7r0s4b-yZN-yLgZV6pIVYRJb3RfrjUSSIY'
+    Authorization: import.meta.env.TMDB_BEARER,
   }
 };
 
