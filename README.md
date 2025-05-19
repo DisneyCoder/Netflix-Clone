@@ -1,12 +1,42 @@
-# React + Vite
+# Netflix-Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Netflix Clone** built with **React** that replicates the core user interface and functionality of Netflix. This project demonstrates how to create a modern streaming service UI using React components, responsive design, and API integrations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+Check out the live version of the Netflix-Clone here:  
+[https://abdullaalnoman.xyz](https://abdullaalnoman.xyz)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Responsive and sleek UI inspired by Netflix
+- Browse movies and TV shows with dynamic categories
+- Movie detail pages with trailers and descriptions
+- User-friendly navigation with header and footer
+- Fetches data from The Movie Database (TMDb) API 
+- Customizable components and styling using CSS 
+
+---
+
+## Tech Stack
+
+- React (with hooks and functional components)  
+- JavaScript (ES6+)  
+- CSS  
+- Fetch API for HTTP requests  
+- React Router for navigation   
+- Firebase for Authentication and Authorization   
+
+---
+
+## Installation & Usage
+
+```bash
+git clone https://github.com/DisneyCoder/Netflix-Clone.git
+cd netflix-clone
+npm install
+npm run dev
